@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
+    "history": "latest",
     "http-proxy-middleware": "^0.19.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
@@ -16,10 +17,10 @@
     "react-router-dom": "^4.3.1",
     "react-router-redux": "^4.0.8",
     "react-scripts": "2.1.5",
+    "react-scrollspy": "^3.4.2",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
-    "redux-saga": "^1.0.2",
-    "history": "latest"
+    "redux-saga": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

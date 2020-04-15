@@ -11,15 +11,16 @@ import RegisterPage from '../components/RegisterPage';
 import PatientInfoForm from '../components/PatientInfoForm';
 import Results from '../components/Results';
 import createBrowserHistory from "history/createBrowserHistory";
+import Header from "../components/Header";
 const history = createBrowserHistory();
 
 class App extends Component {
   render() {
     return (
-        
+
         <BrowserRouter history={history}>
           <div>
-            
+            <Header></Header>
             <div>
               <Switch>
                 <Route path='/' exact={true} component={LoginPage} />
