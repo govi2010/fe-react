@@ -7,6 +7,7 @@ import {
 
 import PrivateRoute from './PrivateRoute';
 import LoginPage from '../components/LoginPage';
+import PatientForm from '../components/patientForm';
 import RegisterPage from '../components/RegisterPage';
 import PatientInfoForm from '../components/PatientInfoForm';
 import Results from '../components/Results';
@@ -24,6 +25,7 @@ class App extends Component {
             <div>
               <Switch>
                 <Route path='/' exact={true} component={LoginPage} />
+                <Route path='/patientForm' component={PatientForm} />
                 <Route path='/login' component={LoginPage} />
                 <Route path='/register' component={RegisterPage} />
                 <PrivateRoute path='/patientInfoForm' component={PatientInfoForm} />
