@@ -1,6 +1,6 @@
 export const registerUserService = (request) => {
   const REGISTER_API_ENDPOINT = process.env.REACT_APP_BE_EXPRESS_APP_HOST + '/api/v1/register';
-  
+
   const parameters = {
     method: 'POST',
     headers: {
@@ -8,7 +8,7 @@ export const registerUserService = (request) => {
     },
     body: JSON.stringify(request.user)
   };
-
+  // REGISTER_API_ENDPOINT
   return fetch(REGISTER_API_ENDPOINT, parameters)
     .then(response => {
       return response.json();

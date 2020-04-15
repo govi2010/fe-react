@@ -4,7 +4,8 @@ import {loginUserAction, registerUserAction} from '../actions/authenticationActi
 import icon1 from '../assets/img/icon-1-li.png';
 import icon2 from '../assets/img/icon-2-li.png'
 import icon3 from '../assets/img/icon-3-li.png'
-import google_icon from '../assets/img/google-icon.png'
+import google_icon from '../assets/img/google-icon.png';
+import video from '../assets/r1ObefKq_close chat issue 4 (1).mp4';
 import {connect} from "react-redux";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
@@ -54,19 +55,19 @@ class LoginPage extends Component {
                                     <div className="row icon-count">
                                         <div
                                             className="col-xl-4 col-lg-4 col-sm-4 col-md-4 col-xs-4 d-flex flex-column align-items-center">
-                                            <img src={icon1}/>
+                                            <img alt='nothing' src={icon1}/>
                                             <h1>415</h1>
                                             <strong className="text-center">Doctors Reached</strong>
                                         </div>
                                         <div
                                             className="col-xl-4 col-lg-4 col-sm-4 col-md-4 col-xs-4 d-flex flex-column align-items-center">
-                                            <img src={icon2}/>
+                                            <img alt='nothing' src={icon2}/>
                                             <h1>415</h1>
                                             <strong className="text-center">Hospitals Reached</strong>
                                         </div>
                                         <div
                                             className="col-xl-4 col-lg-4 col-sm-4 col-md-4 col-xs-4 d-flex flex-column align-items-center">
-                                            <img src={icon3}/>
+                                            <img alt='nothing' src={icon3}/>
                                             <h1>12K</h1>
                                             <strong className="text-center">Test conducted</strong>
                                         </div>
@@ -106,10 +107,10 @@ class LoginPage extends Component {
                                                         </div>
 
                                                         <div className="card-footer-banner">
-                                                            <a href="#">Forgot Your Password?</a>
+                                                            <a href="#noid">Forgot Your Password?</a>
                                                             <button className="btn btn-outline-primary mt-3"
                                                                     type='button'>
-                                                                <img className="icon-img-btn" src={google_icon}/>Login
+                                                                <img alt='nothing' className="icon-img-btn" src={google_icon}/>Login
                                                                 With Google
                                                             </button>
                                                         </div>
@@ -144,10 +145,10 @@ class LoginPage extends Component {
                                                         </div>
 
                                                         <div className="card-footer-banner">
-                                                            <a href="#">Forgot Your Password?</a>
+                                                            <a href="#noid">Forgot Your Password?</a>
                                                             <button className="btn btn-outline-primary mt-3"
                                                                     type='button'>
-                                                                <img className="icon-img-btn" src={google_icon}/>Signup
+                                                                <img alt='nothing' className="icon-img-btn" src={google_icon}/>Signup
                                                                 With Google
                                                             </button>
                                                         </div>
@@ -180,7 +181,7 @@ class LoginPage extends Component {
                                             {/*                <a href="#">Forgot Your Password?</a>*/}
                                             {/*                <button className="btn btn-outline-primary mt-3"*/}
                                             {/*                        type='button'>*/}
-                                            {/*                    <img className="icon-img-btn" src={google_icon}/>Login*/}
+                                            {/*                    <img alt='nothing className="icon-img-btn" src={google_icon}/>Login*/}
                                             {/*                    With Google*/}
                                             {/*                </button>*/}
                                             {/*            </div>*/}
@@ -212,11 +213,9 @@ class LoginPage extends Component {
 
                         <div className="row mt-5 justify-content-center">
                             <div className="col-xl-7 col-md-7 col-lg-7 col-sm-12 col-xs-12">
-
-                                {/*<video width="100%" height="" controls>*/}
-                                {/*  <source type="video/mp4"/>*/}
-                                {/*    <source src={} type="video/ogg"/>*/}
-                                {/*</video>*/}
+                                <video width="100%" height="" controls>
+                                    <source src={video} type="video/mp4" />
+                                </video>
                             </div>
 
                             <div

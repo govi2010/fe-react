@@ -39,7 +39,7 @@ ul li {
   list-style: none;
   display: inline-block;
 }
-li.active a.nav-link{
+a.active {
   border-bottom: 3px solid #a7d7fe;
 }
 .title {
@@ -182,7 +182,12 @@ header.header {
   z-index: 100;
   color: #163342;
 }
-
+.bg-headerBg {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.11);
+  background-color: #ffffff;
+  z-index: 100;
+  color: #163342;
+}
 .contact i {
   height: 41px;
   width: 41px;
