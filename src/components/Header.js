@@ -13,11 +13,8 @@ const Header = (props) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav className="mr-auto">
-                            <Scrollspy items={['banner', 'How-it-Works', 'AboutUs', 'contactUs']}
+                            <Scrollspy className='links'  items={['banner', 'How-it-Works', 'AboutUs', 'contactUs']}
                                        currentClassName="active"
-                                       style={{
-                                           display: 'flex',
-                                       }}
                             >
                                 <Nav.Link href="#banner">Home</Nav.Link>
                                 <Nav.Link href="#How-it-Works">How-it-Works</Nav.Link>
